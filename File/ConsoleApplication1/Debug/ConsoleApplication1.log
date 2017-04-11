@@ -1,0 +1,19 @@
+﻿Build started 08.12.2016 23:19:27.
+     1>Project "D:\Visual Studio 2013\Projects C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 2013\Visual Studio 2013 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt File.cpp Source.cpp
+         Source.cpp
+     1>d:\visual studio 2013\projects c++\consoleapplication1\consoleapplication1\source.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\visual studio 2013 ultimate\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\visual studio 2013\projects c++\consoleapplication1\consoleapplication1\source.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\visual studio 2013 ultimate\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\visual studio 2013\projects c++\consoleapplication1\consoleapplication1\source.cpp(36): error C2084: function 'int File::GetTheSize(void)' already has a body
+                 d:\visual studio 2013\projects c++\consoleapplication1\consoleapplication1\file.h(18) : see previous definition of 'GetTheSize'
+         File.cpp
+         Generating Code...
+     1>d:\visual studio 2013\projects c++\consoleapplication1\consoleapplication1\file.h(18): error C4716: 'File::GetTheSize' : must return a value
+     1>Done Building Project "D:\Visual Studio 2013\Projects C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.80
